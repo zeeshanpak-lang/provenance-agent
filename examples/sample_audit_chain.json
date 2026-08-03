@@ -1,0 +1,26 @@
+{
+  "root": {
+    "urn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.warehouses,PROD)",
+    "name": "WAREHOUSES",
+    "platform": "snowflake",
+    "owners": [],
+    "owner_count": 0,
+    "tags": [
+      "Provenance-Grade-C"
+    ],
+    "glossary": [
+      "PII",
+      "Revenue by Customer Class",
+      "Order Total"
+    ],
+    "health": [
+      {
+        "type": "INCIDENTS",
+        "status": "PASS"
+      }
+    ],
+    "has_description": false,
+    "domain": null
+  },
+  "upstream": []
+}

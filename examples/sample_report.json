@@ -1,0 +1,32 @@
+{
+  "score": 70,
+  "grade": "C",
+  "findings": [
+    {
+      "check": "No upstream lineage recorded",
+      "severity": "HIGH",
+      "penalty": 20,
+      "detail": "This asset has no upstream lineage in DataHub - its provenance cannot be verified",
+      "evidence": [
+        {
+          "node": "WAREHOUSES",
+          "urn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.warehouses,PROD)",
+          "fact": "upstream_count=0"
+        }
+      ]
+    },
+    {
+      "check": "Data steward on sensitive asset",
+      "severity": "HIGH",
+      "penalty": 10,
+      "detail": "Root asset carries sensitive classifications but has no Data Steward",
+      "evidence": [
+        {
+          "node": "WAREHOUSES",
+          "urn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.warehouses,PROD)",
+          "fact": "roles=none"
+        }
+      ]
+    }
+  ]
+}
