@@ -1,0 +1,23 @@
+========================================================================
+  PROVENANCE TRUST REPORT
+========================================================================
+  Asset    : WAREHOUSES  (snowflake)
+  Domain   : None
+  Upstream : 0 nodes traversed
+
+  TRUST SCORE : 70/100   GRADE C   [NEEDS REVIEW]
+========================================================================
+
+  [HIGH]  No upstream lineage recorded   (-20)
+     This asset has no upstream lineage in DataHub - its provenance cannot be verified
+     Evidence:
+       - WAREHOUSES  ::  upstream_count=0
+
+  [HIGH]  Data steward on sensitive asset   (-10)
+     Root asset carries sensitive classifications but has no Data Steward
+     Evidence:
+       - WAREHOUSES  ::  roles=none
+
+========================================================================
+  Every deduction above is bound to a verifiable DataHub metadata fact.
+========================================================================

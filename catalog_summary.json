@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "ORDER_DETAILS",
+    "score": 45,
+    "grade": "D",
+    "upstream": 23,
+    "findings": 3
+  },
+  {
+    "asset": "Customer Analytics Measures",
+    "score": 23,
+    "grade": "F",
+    "upstream": 13,
+    "findings": 4
+  },
+  {
+    "asset": "Geographic Measures",
+    "score": 23,
+    "grade": "F",
+    "upstream": 13,
+    "findings": 4
+  },
+  {
+    "asset": "order_details",
+    "score": 23,
+    "grade": "F",
+    "upstream": 13,
+    "findings": 4
+  },
+  {
+    "asset": "orders",
+    "score": 51,
+    "grade": "D",
+    "upstream": 1,
+    "findings": 4
+  },
+  {
+    "asset": "CUSTOMERS",
+    "score": 70,
+    "grade": "C",
+    "upstream": 0,
+    "findings": 2
+  },
+  {
+    "asset": "PRODUCTS",
+    "score": 70,
+    "grade": "C",
+    "upstream": 0,
+    "findings": 2
+  },
+  {
+    "asset": "WAREHOUSES",
+    "score": 70,
+    "grade": "C",
+    "upstream": 0,
+    "findings": 2
+  }
+]

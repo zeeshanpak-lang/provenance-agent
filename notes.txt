@@ -1,0 +1,8 @@
+TARGET URN:
+urn:li:dataset:(urn:li:dataPlatform:looker,b2df91.order-entry.explore.order_details,PROD)
+
+SESSION START RITUAL:
+ssh root@139.59.97.208
+source ~/dh/bin/activate
+export DATAHUB_GMS_URL=http://localhost:8080
+export DATAHUB_GMS_TOKEN=
