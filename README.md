@@ -17,15 +17,18 @@ Nobody can see this. Lineage is browsable one hop at a time, and governance meta
 ## What Provenance found in a real catalog
 
 Running across 8 assets in the DataHub showcase catalog:
-GRADE SCORE UPSTREAM FINDINGS ASSET
-F 23/100 13 4 Customer Analytics Measures (Power BI)
-F 23/100 13 4 Geographic Measures (Power BI)
-F 23/100 13 4 order_details (Looker)
-D 45/100 23 3 ORDER_DETAILS (Snowflake)
-D 51/100 1 4 orders (Snowflake)
-C 70/100 0 2 CUSTOMERS (Snowflake)
-C 70/100 0 2 PRODUCTS (Snowflake)
-C 70/100 0 2 WAREHOUSES (Snowflake)
+
+| Asset | Platform | Grade | Score | Upstream | Findings |
+|---|---|---:|---:|---:|---:|
+| Customer Analytics Measures | Power BI | F | 23/100 | 13 | 4 |
+| Geographic Measures | Power BI | F | 23/100 | 13 | 4 |
+| order_details | Looker | F | 23/100 | 13 | 4 |
+| ORDER_DETAILS | Snowflake | D | 45/100 | 23 | 3 |
+| orders | Snowflake | D | 51/100 | 1 | 4 |
+| CUSTOMERS | Snowflake | C | 70/100 | 0 | 2 |
+| PRODUCTS | Snowflake | C | 70/100 | 0 | 2 |
+| WAREHOUSES | Snowflake | C | 70/100 | 0 | 2 |
+
 **The BI layer scores worst.** The dashboards executives actually look at are the least trustworthy assets in the catalog, because they inherit every governance gap upstream. That inversion — where trust decreases as you move toward the business — is invisible without walking the chain.
 
 A representative finding on ORDER_DETAILS, itself tagged Certified and GDPR:
